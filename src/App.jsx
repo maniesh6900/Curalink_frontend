@@ -71,7 +71,6 @@ function App() {
       }
 
       const data = result.data;
-      console.log(data);
       
       setConversationId(data.conversationId);
       setActiveResponse(data);
